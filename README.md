@@ -1,2 +1,2 @@
 # landing-page
-Repo for TOP's landing page project
+This is Buonicos's TOP's landing page project
