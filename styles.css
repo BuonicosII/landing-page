@@ -1,5 +1,5 @@
 html {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -76,11 +76,22 @@ a {
 
 .one-container {
     display: flex;
-    max-width: 1000;
-    justify-content: space-evenly;
+    width: 1000px;
+    justify-content: space-between;
     align-items: center;
 }
 
 .one-container img {
     height: 300px;
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+.top-copy {
+    width: 400px;
+}
+
+.top-copy p, .top-copy li {
+    line-height: 25px;
 }
