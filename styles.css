@@ -32,7 +32,7 @@ a {
     padding: 32px;
 }
 
-.header {
+.header, .footer {
     background-color: #363636;
     min-height: 48px;
 }
@@ -52,7 +52,7 @@ a {
     margin-right: auto;
 }
 
-.logo p, .header-container a {
+.logo p, .header-container a, .footer p {
     color: white;
 }
 
@@ -164,4 +164,39 @@ a {
     text-align: right;
     margin: 0;
     padding: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 2%;
+    border: 1px solid black;
+    width: 720px;
+    padding: 20px;
+    margin: 32px;
+
+}
+
+.banner button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:  #363636;
+    padding: 8px;
+    margin-left: 5%;
+    height: 43px;
+}
+
+.banner button a {
+    color: white;
+}
+
+.banner-headline {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 32px;
 }
